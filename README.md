@@ -137,7 +137,7 @@ Ledger API running on port 3000
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Create Account
 
