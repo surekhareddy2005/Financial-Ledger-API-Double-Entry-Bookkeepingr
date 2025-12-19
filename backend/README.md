@@ -6,7 +6,7 @@ This project demonstrates how real-world financial systems track money movements
 
 ---
 
-## ✨ Features
+##  Features
 
 * Create user accounts (checking/savings style)
 * Perform internal transfers between accounts
@@ -18,7 +18,7 @@ This project demonstrates how real-world financial systems track money movements
 
 ---
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 * **Backend:** Node.js, Express
 * **Database:** MySQL 8.x
@@ -29,7 +29,7 @@ This project demonstrates how real-world financial systems track money movements
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ledger-core/
@@ -57,9 +57,9 @@ ledger-core/
 
 ---
 
-## ⚙️ Local Setup Instructions
+##  Local Setup Instructions
 
-### 1️⃣ Prerequisites
+###  Prerequisites
 
 * Node.js (v18+ recommended)
 * MySQL Server 8.x
@@ -67,7 +67,7 @@ ledger-core/
 
 ---
 
-### 2️⃣ Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone <your-github-repo-url>
@@ -76,7 +76,7 @@ cd ledger-core
 
 ---
 
-### 3️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 npm install
@@ -84,7 +84,7 @@ npm install
 
 ---
 
-### 4️⃣ Database Setup (MySQL)
+###  Database Setup (MySQL)
 
 Login to MySQL:
 
@@ -107,7 +107,7 @@ mysql -u root -p ledgerdb < database_sql/tables.sql
 
 ---
 
-### 5️⃣ Environment Configuration
+###  Environment Configuration
 
 Create a `.env` file in the project root:
 
@@ -119,11 +119,11 @@ DB_NAME=ledgerdb
 PORT=3000
 ```
 
-> ⚠️ **Do not commit `.env` to GitHub**
+>  **Do not commit `.env` to GitHub**
 
 ---
 
-### 6️⃣ Run the Server
+###  Run the Server
 
 ```bash
 node backend/start.js
@@ -168,7 +168,7 @@ Ledger API running on port 3000
 
 ---
 
-## 🧠 Design Decisions
+##  Design Decisions
 
 ### Double-Entry Bookkeeping Model
 
@@ -224,7 +224,7 @@ Before committing a transfer, the system checks if the source account’s result
 
 ---
 
-## 📊 Architecture Overview (Textual Diagram)
+##  Architecture Overview (Textual Diagram)
 
 ```
 Client (Postman)
@@ -244,7 +244,7 @@ MySQL Database (ACID Transactions)
 
 ---
 
-## 🗄️ Database Schema (ERD Description)
+##  Database Schema (ERD Description)
 
 ### Accounts
 
@@ -272,7 +272,7 @@ MySQL Database (ACID Transactions)
 
 ---
 
-## 🧪 API Testing
+##  API Testing
 
 A Postman collection is provided to test:
 
@@ -283,12 +283,12 @@ Use Postman or curl to verify API behavior and inspect ledger entries directly i
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates a **correct, auditable, and industry-aligned financial ledger system**. It emphasizes correctness over convenience and reflects real-world backend design principles used in banking and payment systems.
 
 ---
 
-## 👤 Author
+##  Author
 
 Surekha Reddy Gudimetla
